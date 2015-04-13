@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.journey" >
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomToolbarTheme" >
+        <activity
+            android:name=".MainTabsFA"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WebView_baseA" >
+        </activity>
+        <activity
+            android:name=".activity.ActivityCompA"
+            android:label="@string/title_activity_activity_comp" >
+        </activity>
+        <activity
+            android:name=".activity.ServiceCompA"
+            android:label="@string/title_activity_service_comp" >
+        </activity>
+        <activity
+            android:name=".activity.BroadcastCompA"
+            android:label="@string/title_activity_broadcast_comp" >
+        </activity>
+        <activity
+            android:name=".activity.IntentA"
+            android:label="@string/title_activity_intent" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AudioSoundsA"
+            android:label="@string/title_activity_audio_sounds" >
+        </activity>
+        <activity
+            android:name=".activity.MenuA"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".activity.NotificationA"
+            android:label="@string/title_activity_notification" >
+        </activity>
+
+        <!-- BroadcastReceiver,静态注册，方法内部不能使用非静态属性，不能调用非静态方法 -->
+        <receiver android:name=".receiver.MyReceiver" >
+            <intent-filter>
+                <action android:name="broadcast_com.journey_test" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".activity.BindServiceA"
+            android:label="@string/title_activity_bind_service" >
+        </activity>
+    </application>
+
+</manifest>

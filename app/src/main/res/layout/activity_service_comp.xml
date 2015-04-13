@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.journey.activity.ServiceCompA">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/my_toolbar"
+        android:id="@id/my_toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@id/service_usage"
+            android:text="@string/service_usage"
+            style="@style/module_tv_item"
+            android:layout_marginTop="@dimen/space_8"/>
+        <TextView
+            android:id="@id/service_play_music"
+            android:text="@string/service_play_music"
+            style="@style/module_tv_item"/>
+        <TextView
+            android:id="@id/service_download"
+            android:text="@string/service_download"
+            style="@style/module_tv_item"/>
+
+    </LinearLayout>
+
+</LinearLayout>

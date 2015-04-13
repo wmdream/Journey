@@ -1,0 +1,173 @@
+<resources>
+
+    <style name="CustomToolbarTheme"
+        parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="android:colorPrimary">@color/primary</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorAccent">@color/accent</item>
+
+        <item name="android:editTextColor">@color/primary</item>
+        <item name="android:colorControlNormal">@color/primary_dark</item>
+        <item name="android:colorControlActivated">@color/primary_light</item>
+        <item name="android:colorControlHighlight">@color/primary_light</item>
+        <item name="actionMenuTextColor">@color/primary_lighter</item>
+        <item name="actionMenuTextAppearance">@style/action_menu_style</item>
+        <!--<item name="android:actionMenuTextColor">@color/primary_lighter</item>
+        <item name="android:actionMenuTextAppearance">@style/action_menu_style</item>-->
+    </style>
+
+    <style name="CustomToolbarThemeWithNavBarColor"
+        parent="@style/CustomToolbarTheme">
+        <item name="android:navigationBarColor">@color/primary_dark</item> <!-- 底部虚拟导航栏 -->
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/primary</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/primary</item>
+    </style>
+
+    <style name="action_menu_style">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="home_img">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="home_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="customDialog" parent="CustomToolbarTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="toolbar_left_menu">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:textColor">@color/primary_lighter</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="toolbar_right_menu">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginRight">@dimen/margin_lr</item>
+        <item name="android:textColor">@color/primary_lighter</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+    </style>
+
+    <style name="toolbar_title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColor">@color/grey_50</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="my_toolbar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:elevation">4dp</item> <!-- 高度值，高于平面 -->
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:background">@color/primary_light</item>
+    </style>
+
+    <style name="help_btn">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/activity</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="home_btn_text">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_dark</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+    </style>
+
+    <style name="home_btn_img">
+        <item name="android:layout_height">@dimen/btn_img_hw</item>
+        <item name="android:layout_width">@dimen/btn_img_hw</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <!-- 首页九宫格 三栏横向布局 -->
+    <style name="home_btn_layout3">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/activity</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- 首页九宫格 下面指示标 -->
+    <style name="home_indicatiors">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="dialog_translucent" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否悬浮在activity上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 对话框是否有遮盖 -->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <!-- 背景缓存颜色 -->
+    </style>
+
+    <style name="module_tv_item">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:gravity">center</item>
+       <!-- <item name="android:elevation">2dp</item>-->
+        <item name="android:layout_marginBottom">@dimen/space_8</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">onClick</item>
+    </style>
+</resources>

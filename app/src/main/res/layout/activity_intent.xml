@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.journey.activity.IntentA">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/my_toolbar"
+        android:id="@id/my_toolbar"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:id="@id/intent_browser"
+            android:text="@string/intent_browser"
+            style="@style/module_tv_item"
+            android:layout_marginTop="@dimen/space_8"/>
+        <TextView
+            android:id="@id/intent_contacts"
+            android:text="@string/intent_contacts"
+            style="@style/module_tv_item"/>
+        <TextView
+            android:id="@id/intent_telephone"
+            android:text="@string/intent_telephone"
+            style="@style/module_tv_item"/>
+        <TextView
+            android:id="@id/intent_sms"
+            android:text="@string/intent_sms"
+            style="@style/module_tv_item"
+            android:layout_marginTop="@dimen/space_8"/>
+        <TextView
+            android:id="@id/intent_email"
+            android:text="@string/intent_email"
+            style="@style/module_tv_item"/>
+        <TextView
+            android:id="@id/intent_map"
+            android:text="@string/intent_map"
+            style="@style/module_tv_item"/>
+        <TextView
+            android:id="@id/intent_music"
+            android:text="@string/intent_music"
+            style="@style/module_tv_item"
+            android:layout_marginTop="@dimen/space_8"/>
+        <TextView
+            android:id="@id/intent_camera"
+            android:text="@string/intent_camera"
+            style="@style/module_tv_item"
+            android:layout_marginTop="@dimen/space_8"/>
+        <TextView
+            android:id="@id/intent_file"
+            android:text="@string/intent_file"
+            style="@style/module_tv_item"
+            android:layout_marginTop="@dimen/space_8"/>
+        <TextView
+            android:id="@id/intent_app"
+            android:text="@string/intent_app"
+            style="@style/module_tv_item"/>
+        <TextView
+            android:id="@id/intent_market"
+            android:text="@string/intent_market"
+            style="@style/module_tv_item"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

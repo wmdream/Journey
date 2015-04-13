@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical"
+    tools:context="com.journey.fragments.TabHomeF">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="-5dp"
+        card_view:cardElevation="1dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@color/color_white"
+            android:gravity="center"
+            > <!--高度值 android:elevation="4dp",5.0适用-->
+
+            <TextView
+                android:id="@+id/btn_tv_primary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tab_left"
+                android:gravity="center"
+                android:text="初级"
+                android:textColor="@drawable/tab_title_text_color2"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/btn_tv_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_tab_right"
+                android:gravity="center"
+                android:text="高级"
+                android:textColor="@drawable/tab_title_text_color2"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_primary_level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                >
+
+                <TextView
+                   android:id="@id/android_four_component"
+                   android:text="@string/android_four_component"
+                   style="@style/module_tv_item"
+                    android:layout_marginTop="@dimen/space_8"/>
+
+                <TextView
+                    android:id="@id/android_intent"
+                    android:text="@string/android_intent"
+                    style="@style/module_tv_item"/>
+
+                <TextView
+                    android:id="@id/android_layout_component"
+                    android:text="@string/android_layout_component"
+                    style="@style/module_tv_item"/>
+
+                <TextView
+                    android:id="@id/android_data_read_write"
+                    android:text="@string/android_data_read_write"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_view_component_practice"
+                    android:text="@string/android_view_component_practice"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_media_practice"
+                    android:text="@string/android_media_practice"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_aidl"
+                    android:text="@string/android_aidl"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_style_theme"
+                    android:text="@string/android_style_theme"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_develop_with_html5"
+                    android:text="@string/android_develop_with_html5"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_animation"
+                    android:text="@string/android_animation"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_2d_3d_opengl"
+                    android:text="@string/android_2d_3d_opengl"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_google_maps"
+                    android:text="@string/android_google_maps"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_sensor_practice"
+                    android:text="@string/android_sensor_practice"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_ndk"
+                    android:text="@string/android_ndk"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_apk_decompiling"
+                    android:text="@string/android_apk_decompiling"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_useful_tools"
+                    android:text="@string/android_useful_tools"
+                    style="@style/module_tv_item"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_high_level"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@id/design_model"
+                    android:text="@string/design_model"
+                    android:layout_marginTop="@dimen/space_8"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/data_structure"
+                    android:text="@string/data_structure"
+                    style="@style/module_tv_item"/>
+                <TextView
+                    android:id="@id/android_sdk_explore"
+                    android:text="@string/android_sdk_explore"
+                    style="@style/module_tv_item"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

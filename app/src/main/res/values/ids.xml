@@ -1,0 +1,76 @@
+<resources>
+    <item type="id" name="my_toolbar"></item>
+    <item type="id" name="android_four_component"></item>
+    <item type="id" name="android_intent"></item>
+    <item type="id" name="android_layout_component"></item>
+    <item type="id" name="android_component_activity"></item>
+    <item type="id" name="android_component_service"></item>
+    <item type="id" name="android_component_broadcast"></item>
+    <item type="id" name="android_component_provider"></item>
+    <item type="id" name="android_data_read_write"></item>
+    <item type="id" name="android_view_component_practice"></item>
+    <item type="id" name="android_media_practice"></item>
+    <item type="id" name="android_aidl"></item>
+    <item type="id" name="android_style_theme"></item>
+    <item type="id" name="android_develop_with_html5"></item>
+    <item type="id" name="android_animation"></item>
+    <item type="id" name="android_2d_3d_opengl"></item>
+    <item type="id" name="android_google_maps"></item>
+    <item type="id" name="android_sensor_practice"></item>
+    <item type="id" name="android_ndk"></item>
+    <item type="id" name="android_apk_decompiling"></item>
+    <item type="id" name="android_useful_tools"></item>
+    <item type="id" name="design_model"></item>
+    <item type="id" name="data_structure"></item>
+    <item type="id" name="algorithm"></item>
+    <item type="id" name="android_sdk_explore"></item>
+
+    <item type="id" name="activity_load_model"></item>
+    <item type="id" name="activity_life_circle"></item>
+    <item type="id" name="activity_fragment"></item>
+    <item type="id" name="activity_other"></item>
+
+    <item type="id" name="pop_image"></item>
+
+    <item type="id" name="service_usage"></item>
+    <item type="id" name="service_play_music"></item>
+    <item type="id" name="service_download"></item>
+    <item type="id" name="service_bind"></item>
+    <item type="id" name="service_unbind"></item>
+
+    <item type="id" name="broadcast_usage"></item>
+    <item type="id" name="broadcast_notification"></item>
+    <item type="id" name="broadcast_listen_sms"></item>
+    <item type="id" name="broadcast_listen_telephone"></item>
+
+    <item type="id" name="provide_usage"></item>
+    <item type="id" name="provide_read_contacts"></item>
+    <item type="id" name="intent_browser"></item>
+    <item type="id" name="intent_contacts"></item>
+    <item type="id" name="intent_sms"></item>
+    <item type="id" name="intent_email"></item>
+    <item type="id" name="intent_map"></item>
+    <item type="id" name="intent_telephone"></item>
+    <item type="id" name="intent_music"></item>
+    <item type="id" name="intent_camera"></item>
+    <item type="id" name="intent_file"></item>
+    <item type="id" name="intent_app"></item>
+    <item type="id" name="intent_market"></item>
+
+    <item type="id" name="button_start"></item>
+    <item type="id" name="button_stop"></item>
+    <item type="id" name="button_pause"></item>
+    <item type="id" name="button_sound_up"></item>
+    <item type="id" name="button_sound_down"></item>
+    <item type="id" name="button_toggle"></item>
+
+    <item type="id" name="menu_action_mode"></item>
+    <item type="id" name="menu_normal"></item>
+    <item type="id" name="action_settings"></item>
+    <item type="id" name="action_cancel"></item>
+    <item type="id" name="action_delete"></item>
+
+    <item type="id" name="notification_send"></item>
+    <item type="id" name="notification_choose_ringtone"></item>
+    <item type="id" name="tv_notification_sounds"></item>
+</resources>

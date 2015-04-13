@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Journey</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="action_delete">删除</string>
+    <string name="action_cancel">取消</string>
+    <string name="exit_app_tips">再按一次退出</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="tab_titles">
+        <item>首页</item>
+        <item>发现</item>
+        <item>我</item>
+    </string-array>
+    <string  name="android_four_component">Android四大组件</string>
+    <string  name="android_intent">Intent</string>
+    <string  name="android_layout_component">Android布局控件</string>
+    <string  name="android_component_activity">Activity</string>
+    <string  name="android_component_service">Service</string>
+    <string  name="android_component_broadcast">BroadcastReceiver</string>
+    <string  name="android_component_provider">ContentProvider</string>
+    <string-array  name="android_four_component2">
+        <item>@string/android_component_activity</item>
+        <item>@string/android_component_service</item>
+        <item>@string/android_component_broadcast</item>
+        <item>@string/android_component_provider</item>
+    </string-array>
+    <string  name="android_data_read_write">数据的访问与存储</string>
+    <string  name="android_data_file">文件(File、XML、JSON)</string>
+    <string  name="android_data_sp">SharedPresferences</string>
+    <string  name="android_data_db">SQLite数据库</string>
+    <string  name="android_data_io">网络(流)</string>
+    <string-array  name="android_data_read_write2">
+        <item>@string/android_data_file</item>
+        <item>@string/android_data_sp</item>
+        <item>@string/android_data_db</item>
+        <item>@string/android_component_provider</item>
+        <item>@string/android_data_io</item>
+    </string-array>
+    <string  name="android_view_component_practice">控件的应用</string>
+    <string  name="android_view_dialog">Dialog</string>
+    <string  name="android_view_notification">Notification</string>
+    <string  name="android_view_radiobutton">RadioButton</string>
+    <string  name="android_view_checkbox">CheckBox</string>
+    <string  name="android_view_spinner">Spinner</string>
+    <string  name="android_view_seekbar">SeekBar</string>
+    <string  name="android_view_menu">Menu</string>
+    <string  name="android_view_progresbar">ProgressBar</string>
+    <string-array  name="android_view_component_practice2">
+        <item>@string/android_view_dialog</item>
+        <item>@string/android_view_notification</item>
+        <item>@string/android_view_radiobutton</item>
+        <item>@string/android_view_checkbox</item>
+        <item>@string/android_view_spinner</item>
+        <item>@string/android_view_seekbar</item>
+        <item>@string/android_view_menu</item>
+        <item>@string/android_view_progresbar</item>
+    </string-array>
+    <string  name="android_media_practice">多媒体应用</string>
+    <string  name="android_media_sound">音效的播放</string>
+    <string  name="android_media_video">视频的播放</string>
+    <string-array  name="android_media_practice2">
+        <item>@string/android_media_sound</item>
+        <item>@string/android_media_video</item>
+    </string-array>
+    <string  name="android_aidl">进程间通信(AIDL)</string>
+    <string  name="android_style_theme">Android Style和Theme</string>
+    <string  name="android_develop_with_html5">使用网页开发软件界面</string>
+    <string  name="android_animation">动画(Animation)</string>
+    <string  name="android_2d_3d_opengl">2D 3D openGL</string>
+    <string  name="android_google_maps">GoogleMaps</string>
+    <string  name="android_sensor_practice">传感器的使用</string>
+    <string  name="android_ndk">NDK(Native Development kit)</string>
+    <string  name="android_apk_decompiling">APK反编译</string>
+    <string  name="android_useful_tools">常用工具类集锦</string>
+    <string  name="design_model">设计模式</string>
+    <string  name="design_model_creation">创造型模式</string>
+    <string  name="design_model_action">行为型模式</string>
+    <string  name="design_model_structure">结构型模式</string>
+    <string  name="design_model_principle">设计原则</string>
+    <string-array  name="design_model2">
+        <item>@string/design_model_principle</item>
+        <item>@string/design_model_creation</item>
+        <item>@string/design_model_action</item>
+        <item>@string/design_model_structure</item>
+
+    </string-array>
+    <string  name="data_structure">数据结构</string>
+    <string  name="algorithm">算法</string>
+    <string  name="android_sdk_explore">部分SDK源码解析</string>
+    <string  name="android_sdk_canvas">Canvas</string>
+    <string  name="android_sdk_handler">Handler</string>
+    <string  name="android_sdk_context">Context</string>
+    <string  name="android_sdk_view">View树</string>
+    <string  name="android_sdk_event">Event</string>
+    <string  name="android_sdk_binder">Binder</string>
+    <string  name="android_sdk_ams">ActivityManagerService</string>
+    <string  name="android_sdk_pms">PackageManagerService</string>
+    <string  name="android_sdk_wms">WindowManagerIml 、WindowManagerService</string>
+    <string-array  name="android_sdk_explore2">
+        <item>@string/android_sdk_canvas</item>
+        <item>@string/android_sdk_handler</item>
+        <item>@string/android_sdk_context</item>
+        <item>@string/android_sdk_view</item>
+        <item>@string/android_sdk_binder</item>
+        <item>@string/android_sdk_ams</item>
+        <item>@string/android_sdk_pms</item>
+        <item>@string/android_sdk_wms</item>
+    </string-array>
+    <string name="title_activity_activity_comp">Activity</string>
+    <string name="activity_load_model">Activity加载模式</string>
+    <string name="load_model_standard">standard</string>
+    <string name="load_model_single_top">singleTop</string>
+    <string name="load_model_single_task">singleTask</string>
+    <string name="load_model_single_instance">singleInstance</string>
+    <string-array name="activity_load_model2">
+        <item>@string/load_model_standard</item>
+        <item>@string/load_model_single_top</item>
+        <item>@string/load_model_single_task</item>
+        <item>@string/load_model_single_instance</item>
+    </string-array>
+    <string name="activity_life_circle">Activity生命周期</string>
+    <string name="activity_fragment">Activity与Fragment</string>
+    <string name="title_activity_service_comp">Service</string>
+    <string name="title_activity_broadcast_comp">BroadcastReceiver</string>
+    <string name="title_activity_intent">Intent</string>
+    <string name="service_usage">用处、用法</string>
+    <string name="service_play_music">音乐播放器</string>
+    <string name="service_download">下载</string>
+    <string name="service_bind">绑定Service</string>
+    <string name="service_unbind">解绑Service</string>
+    <string name="broadcast_usage">用处、用法</string>
+    <string name="broadcast_notification">显示通知</string>
+    <string name="broadcast_listen_sms">监听短信</string>
+    <string name="broadcast_listen_telephone">监听电话</string>
+
+    <string name="intent_browser">调用系统浏览器</string>
+    <string name="intent_contacts">读取联系人</string>
+    <string name="intent_telephone">拨打电话</string>
+    <string name="intent_sms">调用短信界面</string>
+    <string name="intent_email">发送邮件</string>
+    <string name="intent_map">调用MAP</string>
+    <string name="intent_music">播放音乐</string>
+    <string name="intent_camera">照片相关</string>
+    <string name="intent_file">文件相关</string>
+    <string name="intent_app">应用程序相关</string>
+    <string name="intent_market">Market相关</string>
+    <string name="title_activity_audio_sounds">AudioSoundsA</string>
+    <string name="button_start">开始</string>
+    <string name="button_stop">停止</string>
+    <string name="button_sound_up">音量+</string>
+    <string name="button_sound_down">音量-</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="menu_action_mode">长按触发ActionMode菜单</string>
+    <string name="menu_normal">长按弹出普通菜单</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="notification_send">Send Notification</string>
+    <string name="title_activity_bind_service">BindServiceA</string>
+</resources>
